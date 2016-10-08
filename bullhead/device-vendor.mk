@@ -1,54 +1,66 @@
-# Copyright (C) 2016 The Pure Nexus Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# [2016-10-08] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
-# Prebuilt APKs
+# Prebuilt APKs/JARs from 'vendor/app'
 PRODUCT_PACKAGES += \
     datastatusnotification \
+    ims
+
+# Prebuilt APKs libs symlinks from 'vendor/app'
+PRODUCT_PACKAGES += \
+    libimscamera_jni_64.so \
+    libimsmedia_jni_64.so
+
+# Prebuilt APKs/JARs from 'proprietary/app'
+PRODUCT_PACKAGES += \
     HiddenMenu \
-    ims \
     RCSBootstraputil \
     RcsImsBootstraputil \
     TimeService \
-    Tycho 
+    Tycho
 
-# Prebuilt jars
+# Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
     cneapiclient \
+    com.google.widevine.software.drm \
     qcrilhook \
     rcsimssettings \
     rcsservice
 
-# Prebuilt privileged APKs
+# Prebuilt APKs/JARs from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
     atfwd \
+    CarrierEntitlement \
     CNEService \
     ConnMO \
     DCMO \
     DiagMon \
     DMConfigUpdate \
     DMService \
+    Entitlement \
     GCS \
     HotwordEnrollment \
     LifeTimerService \
     qcrilmsgtunnel \
     SprintDM
 
-# Symlinks
+# Prebuilt APKs libs symlinks from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
-    libimsmedia_jni.so \
-    libimscamera_jni.so \
-    libdmengine.so \
-    libdmjavaplugin.so
+    libdmengine_32.so \
+    libdmjavaplugin_32.so
+
+# Prebuilt shared libraries
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libdsi_netctrl \
+    libqmi_cci \
+    libqmi_common_so \
+    libqmi_csi \
+    libqmiservices
+
+# Extra modules from user configuration
+PRODUCT_PACKAGES += \
+    ETC_Bullhead_AOSPLinks
+
