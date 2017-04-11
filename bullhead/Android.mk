@@ -1,4 +1,4 @@
-# [2017-03-09] Auto-generated file, do not edit
+# [2017-04-11] Auto-generated file, do not edit
 
 LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),bullhead)
