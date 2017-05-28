@@ -1,4 +1,4 @@
-# [2017-04-11] Auto-generated file, do not edit
+# [2017-05-28] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
@@ -40,7 +40,6 @@ PRODUCT_PACKAGES += \
     DMService \
     Entitlement \
     GCS \
-    HotwordEnrollment \
     LifeTimerService \
     qcrilmsgtunnel \
     SprintDM
