@@ -1,4 +1,4 @@
-# [2017-09-17] Auto-generated file, do not edit
+# [2017-10-09] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ATFWD-daemon:lge \
@@ -14,7 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/location-mq:$(TARGET_COPY_OUT_SYSTEM)/bin/location-mq:lge \
     vendor/lge/bullhead/proprietary/bin/loc_launcher:$(TARGET_COPY_OUT_SYSTEM)/bin/loc_launcher:lge \
     vendor/lge/bullhead/proprietary/bin/lowi-server:$(TARGET_COPY_OUT_SYSTEM)/bin/lowi-server:lge \
-    vendor/lge/bullhead/proprietary/bin/mm-qcamera-app:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-qcamera-app:lge \
     vendor/lge/bullhead/proprietary/bin/msm_irqbalance:$(TARGET_COPY_OUT_SYSTEM)/bin/msm_irqbalance:lge \
     vendor/lge/bullhead/proprietary/bin/netmgrd:$(TARGET_COPY_OUT_SYSTEM)/bin/netmgrd:lge \
     vendor/lge/bullhead/proprietary/bin/nl_listener:$(TARGET_COPY_OUT_SYSTEM)/bin/nl_listener:lge \
@@ -26,8 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/qmuxd:$(TARGET_COPY_OUT_SYSTEM)/bin/qmuxd:lge \
     vendor/lge/bullhead/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish:lge \
     vendor/lge/bullhead/proprietary/bin/rmt_storage:$(TARGET_COPY_OUT_SYSTEM)/bin/rmt_storage:lge \
-    vendor/lge/bullhead/proprietary/bin/service:$(TARGET_COPY_OUT_SYSTEM)/bin/service:lge \
-    vendor/lge/bullhead/proprietary/bin/servicemanager:$(TARGET_COPY_OUT_SYSTEM)/bin/servicemanager:lge \
     vendor/lge/bullhead/proprietary/bin/subsystem_ramdump:$(TARGET_COPY_OUT_SYSTEM)/bin/subsystem_ramdump:lge \
     vendor/lge/bullhead/proprietary/bin/thermal-engine:$(TARGET_COPY_OUT_SYSTEM)/bin/thermal-engine:lge \
     vendor/lge/bullhead/proprietary/bin/time_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/time_daemon:lge \
@@ -48,27 +45,30 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/old-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/old-apns-conf.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.omadm.service.xml:lge \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.sdm.plugins.connmo.xml:lge \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.sdm.plugins.sprintdm.xml:lge \
+    vendor/lge/bullhead/proprietary/etc/permissions/privapp-permissions-bullhead.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-bullhead.xml:lge \
+    vendor/lge/bullhead/proprietary/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcsservice.xml:lge \
     vendor/lge/bullhead/proprietary/etc/qcril.db:$(TARGET_COPY_OUT_SYSTEM)/etc/qcril.db:lge \
     vendor/lge/bullhead/proprietary/etc/sap.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sap.conf:lge \
+    vendor/lge/bullhead/proprietary/etc/sysconfig/bullhead_common.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/bullhead_common.xml:lge \
+    vendor/lge/bullhead/proprietary/etc/sysconfig/google_build.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/google_build.xml:lge \
+    vendor/lge/bullhead/proprietary/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/google.xml:lge \
     vendor/lge/bullhead/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/whitelist_com.android.omadm.service.xml:lge \
     vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine-8992.conf:lge \
     vendor/lge/bullhead/proprietary/lib64/hw/gps.msm8992.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.msm8992.so:lge \
     vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgps.utils.so:lge \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_core.so:lge \
     vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_eng.so:lge \
-    vendor/lge/bullhead/proprietary/lib/hw/camera.msm8992.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.msm8992.so:lge \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.msm8992.so:lge \
     vendor/lge/bullhead/proprietary/lib/libdmengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmengine.so:lge \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmjavaplugin.so:lge \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgps.utils.so:lge \
     vendor/lge/bullhead/proprietary/lib/libloc_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_core.so:lge \
     vendor/lge/bullhead/proprietary/lib/libloc_eng.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_eng.so:lge \
-    vendor/lge/bullhead/proprietary/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_interface.so:lge \
-    vendor/lge/bullhead/proprietary/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmjpeg_interface.so:lge \
-    vendor/lge/bullhead/proprietary/lib/libqomx_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqomx_core.so:lge \
     vendor/lge/bullhead/vendor/bin/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd:lge \
     vendor/lge/bullhead/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:lge \
     vendor/lge/bullhead/vendor/bin/hw/android.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.0-service:lge \
@@ -623,4 +623,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumelistener.so:lge \
     vendor/lge/bullhead/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd:lge \
     vendor/lge/bullhead/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:lge
+
+PRODUCT_COPY_FILES += \
+    vendor/lge/bullhead/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:lge \
+    vendor/lge/bullhead/proprietary/lib/libdmengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmengine.so:lge \
+    vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmjavaplugin.so:lge
 

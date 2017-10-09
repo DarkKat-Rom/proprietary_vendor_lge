@@ -1,4 +1,4 @@
-# [2017-09-17] Auto-generated file, do not edit
+# [2017-10-09] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
@@ -20,8 +20,7 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     RCSBootstraputil \
     RcsImsBootstraputil \
-    TimeService \
-    Tycho
+    TimeService
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
