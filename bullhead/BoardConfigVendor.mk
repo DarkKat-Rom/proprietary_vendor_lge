@@ -1,4 +1,4 @@
-# [2017-12-14] Auto-generated file, do not edit
+# [2018-01-09] Auto-generated file, do not edit
 
 TARGET_BOARD_INFO_FILE := vendor/lge/bullhead/vendor-board-info.txt
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
